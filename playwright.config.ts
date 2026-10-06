@@ -6,6 +6,7 @@ const config: PlaywrightTestConfig = {
   retries: 0,
   use: {
     trace: 'on',
+    channel: 'msedge',
     locale: 'pt-BR',
     headless: true,
     viewport: { width: 1280, height: 720 },
